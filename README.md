@@ -1,6 +1,8 @@
 # Como piensa una Inteligencia Artificial
 
 ## 1. Introduccion
+**La inteligencia artificial (IA)** es la capacidad de las máquinas y sistemas informáticos para realizar tareas que normalmente requieren inteligencia humana, como aprender de datos, reconocer patrones, entender lenguaje, resolver problemas o tomar decisiones.
+
 Imagina que le muestras a una inteligencia artificial una imagen de las vocales **“A E I O U”**. ¿Cómo hace para decirte cual es cada vocal?
 
 No “ve” como nosotros. Lo que hace es transformar la imagen en números y pasarlos por una serie de capas que van detectando patrones cada vez más complejos: primero líneas, luego curvas, y al final la letra completa.
@@ -36,6 +38,7 @@ Al final, toda la información se aplana y se conecta a neuronas que empiezan a 
 
 #### 2.3. Función de activación
 Cada neurona aplica una función matemática (la más usada hoy es **ReLU**) que decide si se “enciende” o no.
+![activation](images/activation.png)
 
 Sin activaciones, la red solo podría hacer cálculos lineales y no podría aprender formas complejas.
 
