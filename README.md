@@ -1,11 +1,11 @@
-# Como funciona una red neuronal
+# Como piensa una Inteligencia Artifial
 
 ## 1. Introduccion
 Imagina que le muestras a una inteligencia artificial una imagen de las vocales **“A E I O U”**. ¿Cómo hace para decirte cual es cada vocal?
 
 No “ve” como nosotros. Lo que hace es transformar la imagen en números y pasarlos por una serie de capas que van detectando patrones cada vez más complejos: primero líneas, luego curvas, y al final la letra completa.
 
-Hoy vamos a desglosar las partes de una red neuronal y cómo cada una contribuye a reconocer letras.
+Hoy vamos a desglosar las partes de una **red neuronal** y cómo cada una contribuye a reconocer letras.
 
 ![Vocales](images/aeiou.png)
 
@@ -22,15 +22,17 @@ Si la imagen es de 28×28 píxeles, tienes 784 números que entran a la red.
 #### 2.2. Capas ocultas (Hidden Layers)
 Aquí es donde ocurre la magia. Hay dos tipos principales cuando hablamos de imágenes:
 
-**a) Capas convolucionales (Convolutional Layers)**  
+- **a) Capas convolucionales (Convolutional Layers)**  
 Son las más importantes para reconocer letras/imágenes.  
 Usan filtros (pequeñas matrices) que se deslizan por la imagen buscando patrones simples: bordes verticales, horizontales, curvas, esquinas, etc.
 
-**b) Capas de pooling (Pooling Layers)**  
+- **b) Capas de pooling (Pooling Layers)**  
 Reducen el tamaño de la información (hacen un “resumen”) para que la red sea más rápida y no se confunda con detalles irrelevantes.
 
-**c) Capas totalmente conectadas (Fully Connected / Dense Layers)**  
+- **c) Capas totalmente conectadas (Fully Connected / Dense Layers)**  
 Al final, toda la información se aplana y se conecta a neuronas que empiezan a decidir “esto parece una A, una E, una O…”.
+
+![CNN](images/cnn.png)
 
 #### 2.3. Función de activación
 Cada neurona aplica una función matemática (la más usada hoy es **ReLU**) que decide si se “enciende” o no.
