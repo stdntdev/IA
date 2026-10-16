@@ -1,4 +1,4 @@
-# Como piensa una Inteligencia Artifial
+# Como piensa una Inteligencia Artificial
 
 ## 1. Introduccion
 Imagina que le muestras a una inteligencia artificial una imagen de las vocales **“A E I O U”**. ¿Cómo hace para decirte cual es cada vocal?
