@@ -66,3 +66,8 @@ Una red neuronal no “entiende” la letra como nosotros.
 Aprende a través de miles de ejemplos a detectar patrones (líneas, curvas, proporciones) y asignarles una probabilidad.
 
 Lo impresionante es que, una vez entrenada, puede reconocer letras incluso si están torcidas, incompletas o escritas de formas muy distintas.
+
+
+## Referencias
+
+Santana Vega, C. (2018, 19 de marzo). ¿Qué es una Red Neuronal? Parte 1: La Neurona [Video]. YouTube. https://www.youtube.com/watch?v=MRIv2IwFTPg
